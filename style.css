@@ -1,8 +1,76 @@
-.container{
+/* .container{
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    margin-top: 30px;
-    align-self: center;
+    /* margin-top: 30px;
+    align-self: center; */
     
+/* } */
+.form-control{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+.form--hidden{
+    display: none;
+  
+}
+
+
+.nav img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: -8px 0;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+
+.navbar .social-btn .btn-info:hover {
+    background: #4ec7ef;
+}
+.navbar .social-btn .btn i {
+    margin-right: 5px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+
+
+.searchfield{
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+
+}
+
+.new_title{
+    margin-right: 200px;
+    font-size: 20px;
+}
+.new_item{
+    width: 530px;
+    margin-left: 20pX;
+    border: none;
+    border-bottom: 1px solid black;
+    box-shadow: 2px 2px 0px;
+}
+.icon-h{
+    margin-right: 20px;
+    cursor: pointer;
+    width: 30px;
+}
+.bi-trash{
+    color: red;
+}
+.bi-pencil{
+    color: blue;
+}
+.bi-eye{
+    color: orange;
 }

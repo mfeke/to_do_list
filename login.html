@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-expand-lg navbar-light">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/KY7FnKQP/download.png" height="50px" style="border-radius: 100%; width: 50px; margin-left: 20px;" alt=""></a>  		
+    </div>
+    <!-- Collection of nav links, forms, and other content for toggling -->
+    <div id="navbarCollapse" class="collapse navbar-collapse d-flex" style="justify-content: center; position: absolute; right: 20px;">
+      <ul class="nav navbar-nav navbar-right">			
+        <li>
+          <a data-toggle="dropdown" class="btn btn-secondary dropdo get-started-btn mt-1 mb-1" href="#" style="margin-right: 30px;">Login</a>
+        </li>
+        <li>
+          <a href="#"  class="btn btn-primary dropdo get-started-btn mt-1 mb-1">Sign up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- form login -->
+    <div class="container">
+        <form class="login " id="login" >
+          <div class="navbar-header d-flex">
+            <a class="navbar-brand " href="#"><img src="https://i.postimg.cc/KY7FnKQP/download.png" height="50px" style="border-radius: 100%; width: 50px; margin-bottom: 40px; " alt=""></a>  	
+            <div class="conatiner " style="margin-left: 180px;">
+              <h5>Weclcome back</h5>
+              <p>Login to your account</p>
+            </div>	
+          </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="text" class="form-control username" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control password" style="width: 400px;" id="exampleInputPassword1">
+            </div>
+            <!-- <div class="mb-3">
+                <label for="exampleInputPassword2" class="form-label">Password</label>
+                <input type="password" class="form-control re_password" id="exampleInputPassword2">
+              </div> -->
+            <button type="button" class="btn btn-dark sign_up w-100" onclick="login()"  >LOGIN</button>
+            <div class="text-center mt-2">
+                <p>Don't have an account? <a style="text-decoration: none; "  class="sign_up_link closed" href="/index.html">Register</a></p>
+             </div>
+        </form>
+    </div>
+
+
+  
+
+    <script src="./main.js"></script>
+</body>
+</html>
